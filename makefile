@@ -8,4 +8,4 @@ nn.o: nn.h
 	g++ -c nn.cpp
 
 cn:
-	rm *.o *.out *~
+	rm *.o *.out *~ *.train* *.result*
